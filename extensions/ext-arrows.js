@@ -229,7 +229,7 @@ methodDraw.addExtension("Arrows", function(S) {
 		}
 		
 		return {
-			name: "Arrows",
+			name: "Pijlen",
 			context_tools: [{
 				type: "select",
 				panel: "arrow_panel",
@@ -248,7 +248,8 @@ methodDraw.addExtension("Arrows", function(S) {
 					change: setArrow
 				}
 			}],
-			callback: function() {
+			callback:
+			 function() {
 				$('#arrow_panel').hide();
 				// Set ID so it can be translated in locale file
 				$('#arrow_list option')[0].id = 'connector_no_arrow';

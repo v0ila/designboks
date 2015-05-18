@@ -20,22 +20,22 @@ methodDraw.addExtension("shapes", function() {
 	
 	// This populates the category list
 	var categories = {
-		basic: 'Basic',
-		object: 'Objects',
-		symbol: 'Symbols',
-		arrow: 'Arrows',
-		flowchart: 'Flowchart',
-		nature: 'Nature',
-		game: 'Cards & Chess',
-		dialog_balloon: 'Dialog balloons',
-		music: 'Music',
-		weather: 'Weather &amp; Time',
-		ui: 'User Interface',
-		social: 'Social Web'
+		basic: 'Standaard',
+		object: 'Objecten',
+		symbol: 'Symbolen',
+		arrow: 'Pijlen',
+		flowchart: 'Flowcharts',
+		nature: 'Natuur',
+		game: 'Spel',
+		dialog_balloon: 'Text wolkjes',
+		music: 'Muzike',
+		weather: 'Weer',
+		ui: 'Gebruikers Interface',
+		social: 'Sociaal Media'
 	};
 	
 	var library = {
-		'basic': {
+		'standaard': {
 			data: {
 				"star_points_5": "m1,116.58409l113.82668,0l35.17332,-108.13487l35.17334,108.13487l113.82666,0l-92.08755,66.83026l35.17514,108.13487l-92.08759,-66.83208l-92.08757,66.83208l35.17515,-108.13487l-92.08758,-66.83026z",
 				'donut': 'm1,150l0,0c0,-82.29042 66.70958,-149 149,-149l0,0c39.51724,0 77.41599,15.69816 105.35889,43.64108c27.94293,27.94293 43.64111,65.84165 43.64111,105.35892l0,0c0,82.29041 -66.70958,149 -149,149l0,0c-82.29041,0 -149,-66.70959 -149,-149zm74.5,0l0,0c0,41.1452 33.35481,74.5 74.5,74.5c41.14522,0 74.5,-33.3548 74.5,-74.5c0,-41.1452 -33.3548,-74.5 -74.5,-74.5l0,0c-41.14519,0 -74.5,33.35481 -74.5,74.5z',
