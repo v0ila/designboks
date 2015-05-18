@@ -46,7 +46,7 @@ methodDraw.addExtension("server_opensave", {
 					.appendTo('body')
 					.submit().remove();
 					}})});
-				alert("Saved! Return to Item View!");
+				alert("Opgeslagen!");
 				top.window.location = '/'+name;
 			},
 		});

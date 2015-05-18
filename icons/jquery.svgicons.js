@@ -396,7 +396,7 @@ $(function() {
 			if(file.indexOf('.svgz') != -1) {
 				var reg_file = file.replace('.svgz','.svg');
 				if(window.console) {
-					console.log('.svgz failed, trying with .svg');
+					console.log('Mislukt');
 				}
 				$.svgIcons(reg_file, opts);
 			} else if(opts.fallback) {
