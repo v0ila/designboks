@@ -28,10 +28,10 @@ methodDraw.addExtension("shapes", function() {
 		nature: 'Natuur',
 		game: 'Spel',
 		dialog_balloon: 'Text wolkjes',
-		music: 'Muzike',
+		music: 'Muziek',
 		weather: 'Weer',
 		ui: 'Gebruikers Interface',
-		social: 'Sociaal Media'
+		social: 'Social Media'
 	};
 	
 	var library = {
